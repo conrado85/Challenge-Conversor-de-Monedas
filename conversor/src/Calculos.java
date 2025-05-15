@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 /* Es responsable de manejar la lógica relacionada con las conversiones de moneda. Sin embargo, necesita la
-información de las tasas de cambio obtenidas a través de ConsultaConversion para realizar estas conversiones. */
+información de las tasas de cambio obtenidas a través de ConsultasDeConversion para realizar estas conversiones. */
+
 public class Calculos {
     private String monedaBase;
     private String monedaObjetivo;
@@ -10,9 +11,10 @@ public class Calculos {
     Scanner lectura = new Scanner(System.in);
     ConsultasDeConversion conversion;
 
-    /* Toma una instancia de ConsultaConversion como parámetro y la asigna a una variable de instancia llamada
+    /* Toma una instancia de ConsultasDeConversion como parámetro y la asigna a una variable de instancia llamada
     conversion. De esta manera, cada objeto de Calculos tiene acceso a una instancia de ConsultaConversion, lo
     que le permite realizar consultas de conversiones de moneda cuando sea necesario. */
+
     public Calculos(ConsultasDeConversion conversion) {
         this.conversion = conversion;
     }

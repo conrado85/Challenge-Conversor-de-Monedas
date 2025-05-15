@@ -26,18 +26,18 @@ public class Principal {
 
         String menu = """
                 \n***************************************************
-                *** Sea bienvenido al Conversor de Monedas ***
+                ***  Bienvenido al Conversor de Monedas ***
                 
-                1) Pesos Argentinos ==>> Dólar Estadounidense
-                2) Peso Argentinos ==>> Euro
-                3) Peso Argentinos ==>> Libra Esterlina
-                4) Dólar Estadounidense ==>> Pesos Argentinos
-                5) Euro ==>> Peso Argentinos
-                6) Libra Esterlina ==>> Peso Argentinos
+                (1) Pesos Argentinos ==>> Dólar Estadounidense
+                (2) Peso Argentinos ==>> Euro
+                (3) Peso Argentinos ==>> Libra Esterlina
+                (4) Dólar Estadounidense ==>> Pesos Argentinos
+                (5) Euro ==>> Peso Argentinos
+                (6) Libra Esterlina ==>> Peso Argentinos
                 
-                7) Otra opción de conversión
+                (7) Otra opción de conversión
                 
-                8) Salir
+                (8) Salir
                 ***************************************************
                 """;
 
