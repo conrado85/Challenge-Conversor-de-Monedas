@@ -8,12 +8,12 @@ public class Calculos {
     private double cantidad;
 
     Scanner lectura = new Scanner(System.in);
-    ConsultaConversion conversion;
+    ConsultasDeConversion conversion;
 
     /* Toma una instancia de ConsultaConversion como parámetro y la asigna a una variable de instancia llamada
     conversion. De esta manera, cada objeto de Calculos tiene acceso a una instancia de ConsultaConversion, lo
     que le permite realizar consultas de conversiones de moneda cuando sea necesario. */
-    public Calculos(ConsultaConversion conversion) {
+    public Calculos(ConsultasDeConversion conversion) {
         this.conversion = conversion;
     }
 

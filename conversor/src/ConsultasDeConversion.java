@@ -9,7 +9,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 // Es responsable de realizar las consultas a una API para obtener las tasas de cambio entre diferentes monedas.
-public class ConsultaDeConversion {
+public class ConsultasDeConversion {
     public String buscaConversion(String monedaBase, String monedaObjetivo, double cantidad) {
         try {
             URI direccion = URI.create("https://v6.exchangerate-api.com/v6/df3219c6d2aecd96dd57c178/pair/" +
